@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    font-size: 1.2em; /* Tamanho de fonte padrão para todo o documento */
+    display:inline-flex;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+   
+  }
+  h1{
+    font-size: 3em; 
+    font-family: Arial, sans-serif;
+    color: #0e0d0d;
+  }
+  
+  header {
+    text-align: center;
+    color: #0a0a0a;
+    text-align: center;
+  }
+  
+  header a {
+    font-size: 2em;
+  }
+  
+  .hero,  .tabela {
+    min-height: 100%;
+  }
+  .menu{
+    min-height: 100%;
+    max-width: 100%;
+    height: 100;
+  }
+  
+  .hero {
+    background-image: url('./img/pizza-degrade.png');
+    width: 20%;
+    background-size:cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .menu, .tabela {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .menu img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .menu h3, .tabela h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .btn{
+    height: 10%;
+ right: 50%;
+    border-radius: 100px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.text-white{
+    font-family: Arial, sans-serif;
+    color: #0a0a0a;
+}
+footer  {
+    
+    margin-top: 500px;
+    margin-right: -100%;
+}  
+.col-md-4 mb-4{
+   margin-left: 10%;
+    width: 200%;
+   
+}
+.row{
+    width: 100%;
+    left: auto;
+}
+.c{
+    padding: 100%;
+}
